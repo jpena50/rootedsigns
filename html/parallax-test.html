@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Parallax Testing</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/parallax-test.css" />
+</head>
+<body>
+    <section>
+
+    <div id="top-left" class="wrap">
+        <img src="../images/charles-fair-kur15I9Y66Y-unsplash.jpg" />
+        <img id="scaled-img" src="../images/matteo-paganelli-5XJarqlwvPA-unsplash.jpg" class="front" />
+    </div>
+    <div id="top-center" class="wrap">
+        <img src="../images/clay-banks-gIp2LCwSlV4-unsplash.jpg" />
+        <img src="../images/clay-banks-D5eI52C_as8-unsplash.jpg" class="front" />
+    </div>
+    <div id="bottom-center" class="wrap">
+        <img src="../images/clay-banks-MpVXotwNMXU-unsplash.jpg" />
+        <img src="../images/clay-banks-qT7fZVbDcqE-unsplash.jpg" class="front" />
+    </div>
+    <div id="left" class="wrap">
+        <img src="../images/clay-banks-mr_VqwN1gLI-unsplash.jpg" />
+        <img src="../images/koshu-kunii-CVvOhaqIjSk-unsplash.jpg" class="front" />
+    </div>
+    <div id="right" class="wrap">
+        <img src="../images/josh-hild-eCpiUFDjqTk-unsplash.jpg" />
+        <img src="../images/max-bender-2t_Fzgg8CXY-unsplash.jpg" class="front" />
+    </div>
+    <div id="top-right" class="wrap">
+        <img src="../images/library-of-congress-WzPxmB_tRlw-unsplash.jpg" />
+        <img src="../images/nathan-dumlao-UNAgEIPTOiU-unsplash.jpg" class="front" />
+    </div>
+    
+    </section>
+
+    <section>
+        <div class="bounding-box">
+            <div class="block"></div>
+            <div class="block2"></div>
+            <div class="eye eye1">
+                <div class="pupil pupil1"></div>
+            </div>
+            <div class="eye eye2">
+                <div class="pupil pupil2"></div>
+            </div>    
+        </div>
+    </section>
+
+    <section>
+        <div class="bounding-box">
+            <div class="block"></div>
+            <div class="block2"></div>
+            
+            <div class="parallax-item" data-depth="0.1" id="pi1"></div>
+            <div class="parallax-item" data-depth="0.3" id="pi2"></div>
+            <div class="parallax-item" data-depth="0.6" id="pi3"></div>
+
+        </div>
+    </section>
+
+    <script src="../js/parallax-test.js"></script>
+</body>
+</html>
